@@ -4,17 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
     <script src="js/script.js" defer></script>
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <div id="wrapper">
-      <!-- Insert your code here -->
+      <div id="quote-box">
+        <p class="quote-text" id="text">
+          Click the button below to generate a random quote.
+        </p>
+        <p id="author"></p>
+        <div class="buttons-wrapper">
+        <button class="button" id="new-quote">
+          Get a new quote
+        </button>
+          <a
+            class="button"
+            id="tweet-quote"
+            title="Tweet this quote!"
+            target="_blank"
+            href="https://twitter.com/intent/tweet"
+          >
+            <i class="fa fa-twitter"></i>
+          </a>
+        </div>
+      </div>
     </div>
   </body>
 </html>
