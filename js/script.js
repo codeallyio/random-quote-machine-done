@@ -61,7 +61,7 @@ const randomQuote = () => {
     //get that random quote's content
     quote.innerHTML = quoteArray[random].content;
     //get that random quote's author
-    author.innerHTML = '&mdash; ' + quoteArray[random].author;
+    author.innerHTML = quoteArray[random].author;
 }
 
 randomQuote()
